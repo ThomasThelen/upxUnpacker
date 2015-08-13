@@ -1,6 +1,7 @@
-//msg "Make sure you run this at the starting entry point"
+// Written by Thomas Thelen
+// Contact: https://github.com/ThomasThelen
 
-//Start at PUSHH
+//Start at PUSHAD
 run
 //Clear any existing breakpoints
 bc
@@ -19,11 +20,4 @@ ret	// Return to user
 
 error:
 msg "Could not find the OEP."
-msg "How to find the OEP:"
-msg "Begin at the entry point of the application"
-msg "Hit run to get to the PUSHAD"
-msg "Scroll through the large set of loops which follow."
-msg "After the loops, a couple of jump instructions will be found."
-msg "Break point them and one of them should lead to the OEP."
-msg "If you hit a block of dd opcodes, you've gone too far."
 ret
