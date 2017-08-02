@@ -10,5 +10,5 @@ This is to be used on UPX versions ranging from 2.02 to 2.93.
 <br> 
 This is to be used on UPX versions ranging from 3.06 to 3.91.
 
-##Instructions
+## Instructions
 To use the script, first open the executable file in x64dbg. Next, load the script and run it.
